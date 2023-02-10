@@ -22,7 +22,6 @@ public class main
         {
             Matcher matcher = patron.matcher(buffer);
 
-            
             if (matcher.matches())
             {
                 System.out.println("La cadena: " + buffer+ " coincide con el lenguaje regular");
